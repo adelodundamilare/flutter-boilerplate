@@ -1,18 +1,14 @@
-
-
-import 'package:grigora/models/environment_configuration.dart';
+import 'package:ProjectX/models/environment_configuration.dart';
 
 class LogService {
   static String filter = "";
 
   static void debug(String msg) {
     if (EnvironmentConfiguration.IS_PRODUCTION) return;
-    if (msg.startsWith(filter))
-      print('DEBUG: $msg');
+    if (msg.startsWith(filter)) print('DEBUG: $msg');
   }
 
   static void error(String msg) {
-    if (msg.startsWith(filter))
-      print('ERROR: $msg');
+    if (msg.startsWith(filter)) print('ERROR: $msg');
   }
 }

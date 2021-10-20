@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
 
 class LayoutWithNestedScroll extends StatelessWidget {
   final Widget body, backgroundWidget;

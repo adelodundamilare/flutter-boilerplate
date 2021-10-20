@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:grigora/models/model_http_error.dart';
-import 'package:grigora/utils/log_printer.dart';
+import 'package:ProjectX/models/model_http_error.dart';
+import 'package:ProjectX/utils/log_printer.dart';
 
 abstract class HttpServices {
   Future<dynamic> getHttp(String route);

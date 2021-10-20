@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/buttons.dart';
-import 'package:grigora/ui_widgets/layouts/simple_layout.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
-import 'package:grigora/utils/base_widget.dart';
-import 'package:grigora/utils/form_item.dart';
-import 'package:grigora/utils/validators.dart';
-import 'package:grigora/views/create_account/create_account_vm.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/buttons.dart';
+import 'package:ProjectX/ui_widgets/layouts/simple_layout.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
+import 'package:ProjectX/utils/base_widget.dart';
+import 'package:ProjectX/utils/form_item.dart';
+import 'package:ProjectX/utils/validators.dart';
+import 'package:ProjectX/views/create_account/create_account_vm.dart';
 import 'package:provider/provider.dart';
 import 'package:nb_utils/nb_utils.dart';
 

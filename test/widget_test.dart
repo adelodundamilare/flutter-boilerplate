@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:grigora/main.dart';
+import 'package:ProjectX/main.dart';
 
 void main() {
   testWidgets('Run App', (WidgetTester tester) async {

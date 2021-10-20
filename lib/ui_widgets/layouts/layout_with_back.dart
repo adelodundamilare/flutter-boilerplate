@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class LayoutWithBack extends StatelessWidget {

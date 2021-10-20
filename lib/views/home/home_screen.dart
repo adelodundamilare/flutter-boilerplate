@@ -1,9 +1,9 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/buttons.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
-import 'package:grigora/ui_widgets/ui_utils.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/buttons.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
+import 'package:ProjectX/ui_widgets/ui_utils.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
           )
         ],
       ),
-      drawer: _GrigoraDrawer(),
+      drawer: _ProjectXDrawer(),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -101,7 +101,7 @@ class _DrawerItem {
   _DrawerItem({required this.text, this.routeName, required this.icon});
 }
 
-class _GrigoraDrawer extends StatelessWidget {
+class _ProjectXDrawer extends StatelessWidget {
   final List<_DrawerItem> _items = [
     _DrawerItem(
         icon: EvaIcons.homeOutline, text: 'Home', routeName: kRouteOnboarding),
@@ -119,7 +119,7 @@ class _GrigoraDrawer extends StatelessWidget {
         routeName: kRouteOnboarding),
     _DrawerItem(
         icon: Icons.wallet_giftcard_outlined,
-        text: 'Grigora Pay',
+        text: 'ProjectX Pay',
         routeName: kRouteOnboarding),
     _DrawerItem(
         icon: Icons.settings_outlined,

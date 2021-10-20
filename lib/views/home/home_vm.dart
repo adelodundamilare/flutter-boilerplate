@@ -1,3 +1,3 @@
-import 'package:grigora/utils/base_model.dart';
+import 'package:ProjectX/utils/base_model.dart';
 
 class HomeVM extends BaseModel {}

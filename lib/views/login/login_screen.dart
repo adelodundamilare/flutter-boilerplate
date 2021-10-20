@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/buttons.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
-import 'package:grigora/ui_widgets/ui_utils.dart';
-import 'package:grigora/utils/base_widget.dart';
-import 'package:grigora/views/login/login_vm.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/buttons.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
+import 'package:ProjectX/ui_widgets/ui_utils.dart';
+import 'package:ProjectX/utils/base_widget.dart';
+import 'package:ProjectX/views/login/login_vm.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class LoginScreen extends StatelessWidget {

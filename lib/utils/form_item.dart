@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
-import 'package:grigora/utils/base_model.dart';
-import 'package:grigora/utils/base_widget.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
+import 'package:ProjectX/utils/base_model.dart';
+import 'package:ProjectX/utils/base_widget.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/style.dart';
 import 'package:nb_utils/nb_utils.dart';

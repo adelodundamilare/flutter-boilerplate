@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
-import 'package:grigora/utils/base_widget.dart';
-import 'package:grigora/utils/log_printer.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
+import 'package:ProjectX/utils/base_widget.dart';
+import 'package:ProjectX/utils/log_printer.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class UiUtils {

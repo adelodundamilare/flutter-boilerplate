@@ -1,6 +1,6 @@
-import 'package:grigora/constants.dart';
-import 'package:grigora/services/http_services.dart';
-import 'package:grigora/utils/locator.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/services/http_services.dart';
+import 'package:ProjectX/utils/locator.dart';
 
 abstract class AuthServices {
   Future<dynamic> doRegister(Map<String, dynamic> data);

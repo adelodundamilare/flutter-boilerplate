@@ -1,8 +1,8 @@
 import 'package:logger/logger.dart';
 
-class GrigoraLogPrinter extends LogPrinter {
+class ProjectXLogPrinter extends LogPrinter {
   final String className;
-  GrigoraLogPrinter(this.className);
+  ProjectXLogPrinter(this.className);
 
   @override
   List<String> log(LogEvent event) {
@@ -15,5 +15,5 @@ class GrigoraLogPrinter extends LogPrinter {
 }
 
 Logger getLogger(String className) {
-  return Logger(printer: GrigoraLogPrinter(className));
+  return Logger(printer: ProjectXLogPrinter(className));
 }

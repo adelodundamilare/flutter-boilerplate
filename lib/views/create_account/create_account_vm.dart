@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import 'package:grigora/services/auth_services.dart';
-import 'package:grigora/ui_widgets/ui_utils.dart';
-import 'package:grigora/utils/base_model.dart';
-import 'package:grigora/utils/locator.dart';
-import 'package:grigora/utils/log_printer.dart';
-import 'package:grigora/services/hardware_info_service.dart';
+import 'package:ProjectX/services/auth_services.dart';
+import 'package:ProjectX/ui_widgets/ui_utils.dart';
+import 'package:ProjectX/utils/base_model.dart';
+import 'package:ProjectX/utils/locator.dart';
+import 'package:ProjectX/utils/log_printer.dart';
+import 'package:ProjectX/services/hardware_info_service.dart';
 
 class CreateAccountVM extends BaseModel {
   final logger = getLogger("create_account_vm.dart");

@@ -1,4 +1,4 @@
-# Grigora Customer Mobile App
+# ProjectX Customer Mobile App
 
 A marketplace app that connects vendors to their customers. This project is built with Flutter.
 

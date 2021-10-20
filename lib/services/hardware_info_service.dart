@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:grigora/utils/log_printer.dart';
+import 'package:ProjectX/utils/log_printer.dart';
 import 'package:device_info/device_info.dart';
 
 abstract class HardwareInfoService {

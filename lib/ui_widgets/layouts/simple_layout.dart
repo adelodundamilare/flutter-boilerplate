@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
+import 'package:ProjectX/constants.dart';
 
 class SimpleLayout extends StatelessWidget {
   final Widget body;

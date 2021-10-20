@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/app_pages.dart';
-import 'package:grigora/ui_widgets/ui_utils.dart';
-import 'package:grigora/utils/locator.dart';
-import 'package:grigora/views/home/home_screen.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/app_pages.dart';
+import 'package:ProjectX/ui_widgets/ui_utils.dart';
+import 'package:ProjectX/utils/locator.dart';
+import 'package:ProjectX/views/home/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

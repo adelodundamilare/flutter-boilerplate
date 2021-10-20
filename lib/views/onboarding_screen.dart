@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/ui_widgets/buttons.dart';
-import 'package:grigora/ui_widgets/project_text.dart';
-import 'package:grigora/ui_widgets/ui_utils.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/ui_widgets/buttons.dart';
+import 'package:ProjectX/ui_widgets/project_text.dart';
+import 'package:ProjectX/ui_widgets/ui_utils.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class OnboardingScreen extends StatelessWidget {
@@ -39,7 +39,7 @@ class _OverlayBody extends StatelessWidget {
       child: Column(
         children: [
           ProjectTextTitle(
-            'Grigora works best when we know where to deliver.',
+            'ProjectX works best when we know where to deliver.',
             centerText: true,
           ),
           ProjectText(

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:grigora/constants.dart';
-import 'package:grigora/views/login/login_screen.dart';
-import 'package:grigora/views/onboarding_screen.dart';
+import 'package:ProjectX/constants.dart';
+import 'package:ProjectX/views/login/login_screen.dart';
+import 'package:ProjectX/views/onboarding_screen.dart';
 
 class AppPages {
   AppPages._();
